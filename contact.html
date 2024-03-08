@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>l'école des art corporelle et sportive</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/flexbox.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbarA">
+            <a href="index.html" class="imga"></a>
+        </div>
+        <div class="navbarB">
+            <a class="prince" href="index.html">Accueil</a>
+            <div style="display: flex; flex-direction: column;">
+                <a class="prince">Formations</a>
+                <div class="menu">
+                    <a href="formation_sportive.html">Sportives</a>
+                    <a href="formation_général.html">Générales</a>
+                    <a href="formation_armée.html">Armée</a>
+                </div>
+            </div>
+            <a class="prince" href="contact.html">Contact</a>
+        </div>
+    </header>
+    <h1>CONTACT :</h1>
+    <p>Numéro de téléphone : 07 57 05 05 57</p>
+    <p>Adresse mail : institutdesartsco@gmail.com</p>
+    <p>Adresse : 12 Rue des Poutrains, 59200 Tourcoing</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1262.9219664001344!2d3.1497918390416686!3d50.722834490944784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32ed381582237%3A0xfd1f09f49544f3bd!2s12%20Rue%20des%20Poutrains%2C%2059200%20Tourcoing!5e0!3m2!1sfr!2sfr!4v1699349780277!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <form class="container"> <!-- Ajout de la classe "container" pour appliquer le style école -->
+        <label for="formation">Veuillez choisir le type de formation qui vous intéresse : </label>
+        <select id="formation" name="formation">
+            <option value="Prépa sportive">Prépa sportive</option>
+            <option value="Prépa général">Prépa général</option>
+            <option value="Prépa armée">Prépa armée</option>
+        </select>
+        <div>
+            <label for="zonedetexte">Voulez-vous nous laisser un message ? : </label>
+            <textarea id="idzonetxt" name="zonedetexte" rows="5" cols="33"></textarea>
+        </div>
+        <div>
+            <label for="texte">Veuillez saisir votre nom : </label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="zone">Veuillez saisir votre prénom : </label>
+            <input type="text">
+        </div>
+        <label for="telNo">Veuillez saisir votre numéro de téléphone : </label>
+        <input id="telNo" name="telNo" type="tel" placeholder="07 26 75 67 89" />
+        <div>
+            <label for="zonetexte">Veuillez saisir votre adresse mail : </label>
+            <input type="text">
+        </div>
+        <div>
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+    <footer>
+        Membre du projet : Kerlidou Mattew et El Kah Isshaq
+    </footer>
+</body>
+
+</html>

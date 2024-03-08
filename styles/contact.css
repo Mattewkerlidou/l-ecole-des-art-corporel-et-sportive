@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.cursus {
+    display: flex;
+    flex-direction: column;
+}
+
+.cours article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cours article img {
+    width: 100%;
+    max-width: 150px;
+    margin-left: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ajout du thème école */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 50%;
+    max-width: 400px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.container:hover {
+    border-color: grey;
+    
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#telNo {
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#telNo {
+    margin: 0 auto;
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#idzonetxt {
+  resize: none;
+}

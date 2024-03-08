@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* Dans le fichier "armée.css" */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db; /* Couleur de fond de l'en-tête */
+    color: #fff; /* Couleur du texte de l'en-tête */
+    text-align: center;
+    padding: 20px;
+}
+
+.navbarA {
+    display: flex;
+}
+
+.navbarA .imga {
+    width: 100%;
+    height: 180px;
+    background-image: url(../image/logo1.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb( 226,  225,  225);; /* Couleur de fond du logo */
+    border: 2px solid #7f8c8d; /* Couleur de la bordure du logo */
+}
+
+.navbarB {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #bdc3c7; /* Couleur de la bordure de la barre de navigation */
+    background-color: white; /* Couleur de fond de la barre de navigation */
+}
+
+.navbarB .prince {
+    border-left: 2px solid #bdc3c7;
+    border-right: 2px solid #bdc3c7;
+}
+
+
+
+.video-container {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -10;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); /* Couleur de fond de l'overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-section {
+    color: #2c3e50; /* Couleur du texte */
+    text-align: justify;
+    padding: 20px;
+}
+
+.text-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Ajoutez ces styles à la suite du CSS précédent */
+
+.text-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #3498db;
+}
+
+.text-section p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.cursus {
+    display: flex;
+    flex-direction: column;
+}
+
+.cours article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.cours article img {
+    width: 100%;
+    max-width: 150px;
+    margin-left: 20px;
+}
